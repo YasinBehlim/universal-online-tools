@@ -1,1 +1,65 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0a0f1f;
+    color: #e0e6ff;
+}
+
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #0d1228, #1a1f3c);
+    box-shadow: 0 0 25px rgba(0,255,255,0.1);
+    border-bottom: 1px solid rgba(0,255,255,0.2);
+}
+
+header h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+#tool-search {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 12px;
+    border: none;
+    width: 250px;
+    max-width: 80%;
+    font-size: 1rem;
+}
+
+#tool-search:focus {
+    outline: none;
+    box-shadow: 0 0 15px rgba(0,255,255,0.5);
+}
+
+#tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 50px 40px;
+}
+
+.tool-card {
+    background: rgba(255,255,255,0.05);
+    padding: 25px;
+    border-radius: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+    border: 1px solid rgba(0,255,255,0.1);
+}
+
+.tool-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0,255,255,0.4);
+    border-color: rgba(0,255,255,0.3);
+}
 
