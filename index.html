@@ -29,6 +29,19 @@
             font-size: 1.2rem;
             opacity: 0.8;
         }
+        #tool-search {
+            margin-top: 20px;
+            padding: 10px 15px;
+            border-radius: 12px;
+            border: none;
+            width: 250px;
+            max-width: 80%;
+            font-size: 1rem;
+        }
+        #tool-search:focus {
+            outline: none;
+            box-shadow: 0 0 15px rgba(0,255,255,0.5);
+        }
         #tools-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -55,6 +68,7 @@
     <header>
         <h1>Universal Tools</h1>
         <p>Your futuristic multi-tool hub</p>
+        <input type="text" id="tool-search" placeholder="Search tools...">
     </header>
 
     <section id="tools-grid">
