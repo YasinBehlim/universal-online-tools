@@ -1,3 +1,6 @@
+/* style.css */
+
+/* Body and page layout */
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
@@ -5,6 +8,7 @@ body {
     color: #e0e6ff;
 }
 
+/* Header styling */
 header {
     text-align: center;
     padding: 60px 20px;
@@ -25,6 +29,7 @@ header p {
     opacity: 0.8;
 }
 
+/* Search bar styling */
 #tool-search {
     margin-top: 20px;
     padding: 10px 15px;
@@ -40,6 +45,7 @@ header p {
     box-shadow: 0 0 15px rgba(0,255,255,0.5);
 }
 
+/* Tools grid */
 #tools-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -47,6 +53,7 @@ header p {
     padding: 50px 40px;
 }
 
+/* Individual tool card */
 .tool-card {
     background: rgba(255,255,255,0.05);
     padding: 25px;
@@ -62,4 +69,3 @@ header p {
     box-shadow: 0 0 20px rgba(0,255,255,0.4);
     border-color: rgba(0,255,255,0.3);
 }
-
